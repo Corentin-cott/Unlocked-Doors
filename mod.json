@@ -8,7 +8,7 @@
 
     "chapter": 2,
 
-    "map": "room_lw_mysterious_door",
+    "map": "lw/snowdin/room_mysterious_door",
 
     "party": ["frisk"],
 

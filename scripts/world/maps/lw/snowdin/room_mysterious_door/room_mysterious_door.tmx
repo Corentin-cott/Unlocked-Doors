@@ -5,10 +5,10 @@
  </editorsettings>
  <properties>
   <property name="light" type="bool" value="true"/>
-  <property name="music" value="DR_Mysterious_Place"/>
+  <property name="music" value="UT_Mysterious_Place"/>
   <property name="name" value="Mysterious door"/>
  </properties>
- <tileset firstgid="1" source="../../tilesets/lw_snowdin.tsx"/>
+ <tileset firstgid="1" source="../../../../tilesets/lw_snowdin.tsx"/>
  <layer id="2" name="background" width="30" height="30">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

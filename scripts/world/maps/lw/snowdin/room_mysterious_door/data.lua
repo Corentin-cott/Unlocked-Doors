@@ -13,15 +13,15 @@ return {
   nextobjectid = 30,
   properties = {
     ["light"] = true,
-    ["music"] = "DR_Mysterious_Place",
+    ["music"] = "UT_Mysterious_Place",
     ["name"] = "Mysterious door"
   },
   tilesets = {
     {
       name = "lw_snowdin",
       firstgid = 1,
-      filename = "../../tilesets/lw_snowdin.tsx",
-      exportfilename = "../../tilesets/lw_snowdin.lua"
+      filename = "../../../../tilesets/lw_snowdin.tsx",
+      exportfilename = "../../../../tilesets/lw_snowdin.lua"
     }
   },
   layers = {
