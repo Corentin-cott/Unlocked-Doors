@@ -5,7 +5,7 @@ function Player:init(...)
     
     self.frisk_dance_detector = Game.world:spawnObject(FriskDanceDetector(0, 0))
 	self:addChild(self.frisk_dance_detector)
-    -- self.frisk_dance_detector:setSprite("frisk_dance_detector")
+    self.frisk_dance_detector:setSprite("frisk_dance_detector")
     self.frisk_dance_detector:setOrigin(0, 0)
     local _, _, _, hitboxY = self:getHitbox()
     self.frisk_dance_detector:setPosition(self.frisk_dance_detector.x, self.frisk_dance_detector.y + self.height - hitboxY)
